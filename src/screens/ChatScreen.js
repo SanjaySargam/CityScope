@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 
-class HomeScreen extends Component {
+class ChatScreen extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      message: 'Hello, Welcome to HomeScreen!',
+      message: 'Hello, Welcome to ChatScreen!',
     };
   }
 
@@ -17,7 +17,6 @@ class HomeScreen extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.message}>{this.state.message}</Text>
-   
       </View>
     );
   }
@@ -38,4 +37,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default HomeScreen;
+export default ChatScreen;
